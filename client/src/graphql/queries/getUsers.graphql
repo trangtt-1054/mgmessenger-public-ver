@@ -1,0 +1,10 @@
+query getUsers {
+  getUsers {
+    username
+    id
+    auth0Id
+    createdAt
+    isOnline
+    latestMessage
+  }
+}

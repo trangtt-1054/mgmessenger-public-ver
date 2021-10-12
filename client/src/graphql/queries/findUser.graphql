@@ -1,0 +1,8 @@
+query findUser {
+  findUser {
+    username
+    id
+    auth0Id
+    createdAt
+  }
+}

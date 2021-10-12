@@ -1,0 +1,16 @@
+mutation addMessage($newMessageData: NewMessageInput!) {
+  addMessage(newMessageData: $newMessageData) {
+    id
+    content
+    from
+    to
+    createdAt
+    reactions {
+      id
+
+      content
+      messageId
+      userId
+    }
+  }
+}

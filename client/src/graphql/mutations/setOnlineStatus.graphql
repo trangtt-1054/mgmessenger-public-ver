@@ -1,0 +1,6 @@
+mutation setOnlineStatus($onlineStatusInput: OnlineStatusInput!) {
+  setOnlineStatus(onlineStatusInput: $onlineStatusInput) {
+    isOnline
+    userId
+  }
+}

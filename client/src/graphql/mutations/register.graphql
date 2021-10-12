@@ -1,0 +1,8 @@
+mutation register($newUserData: CreateUserInput!) {
+  createUser(newUserData: $newUserData) {
+    id
+    auth0Id
+    username
+    createdAt
+  }
+}

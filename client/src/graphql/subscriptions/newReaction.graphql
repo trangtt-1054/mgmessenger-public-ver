@@ -1,0 +1,13 @@
+subscription newReaction {
+  NEW_REACTION {
+    id
+    content
+    userId
+    messageId
+    message {
+      id
+      from
+      to
+    }
+  }
+}

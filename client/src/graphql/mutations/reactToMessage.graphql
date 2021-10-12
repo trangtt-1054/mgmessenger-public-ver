@@ -1,0 +1,14 @@
+mutation reactToMessage($reactInput: ReactToMessageInput!) {
+  reactToMessage(reactInput: $reactInput) {
+    id
+    content
+    userId
+    message {
+      id
+      from
+      to
+    }
+    createdAt
+    updatedAt
+  }
+}

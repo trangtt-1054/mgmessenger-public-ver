@@ -1,0 +1,14 @@
+query getMessages($getMessagesParam: GetMessagesInput!) {
+  getMessages(getMessagesParam: $getMessagesParam) {
+    id
+    from
+    to
+    content
+    createdAt
+    reactions {
+      content
+      messageId
+      userId
+    }
+  }
+}

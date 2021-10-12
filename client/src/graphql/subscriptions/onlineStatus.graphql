@@ -1,0 +1,6 @@
+subscription onlineStatus {
+  ONLINE_STATUS {
+    userId
+    isOnline
+  }
+}

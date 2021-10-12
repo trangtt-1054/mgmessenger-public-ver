@@ -1,0 +1,7 @@
+subscription typingStatus {
+  TYPING_STATUS {
+    from
+    to
+    isTyping
+  }
+}

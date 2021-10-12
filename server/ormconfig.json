@@ -1,0 +1,34 @@
+[
+  {
+    "name": "development",
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "$zumieko99",
+    "database": "mgmes3",
+    "entities": ["dist/**/entities/*{.ts,.js}"],
+    "synchronize": true,
+    "migrations": ["dist/migrations/*{.ts,.js}"],
+    "charset": "utf8mb4",
+    "cli": {
+      "migrationsDir": "src/migrations"
+    }
+  },
+  {
+    "name": "production",
+    "type": "mysql",
+    "host": "mysqldb",
+    "port": 3306,
+    "username": "root",
+    "password": "$zumieko99",
+    "database": "mgmes3",
+    "entities": ["dist/**/entities/*{.ts,.js}"],
+    "synchronize": true,
+    "migrations": ["dist/migrations/*{.ts,.js}"],
+    "charset": "utf8mb4",
+    "cli": {
+      "migrationsDir": "src/migrations"
+    }
+  }
+]

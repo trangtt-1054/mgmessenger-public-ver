@@ -1,0 +1,7 @@
+mutation setTypingStatus($typingStatusInput: TypingStatusInput!) {
+  setTypingStatus(typingStatusInput: $typingStatusInput) {
+    from
+    to
+    isTyping
+  }
+}

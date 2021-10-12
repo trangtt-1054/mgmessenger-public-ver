@@ -1,0 +1,9 @@
+subscription newMessage {
+  NEW_MESSAGE {
+    from
+    to
+    content
+    createdAt
+    id
+  }
+}
